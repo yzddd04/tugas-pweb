@@ -2,7 +2,7 @@
 'use client';
 
 import React, { useState } from 'react';
-import { Eye, Heart } from 'lucide-react';
+import { Eye, Heart, FileText } from 'lucide-react';
 import { Project } from '@/lib/data';
 
 interface ProjectCardProps {
@@ -19,8 +19,8 @@ const ProjectCard = ({ project, onViewDetails }: ProjectCardProps) => {
             className="group bg-white rounded-xl border border-gray-200 hover:border-blue-300 hover:shadow-lg transition duration-300 overflow-hidden cursor-pointer"
         >
             {/* Image */}
-            <div className="h-48 bg-gradient-to-br from-blue-50 to-yellow-50 flex items-center justify-center text-6xl group-hover:scale-105 transition duration-300 overflow-hidden">
-                {project.image}
+            <div className="h-48 bg-gray-100 flex items-center justify-center text-gray-400 group-hover:scale-105 transition duration-300 overflow-hidden">
+                <FileText size={64} strokeWidth={1} />
             </div>
 
             {/* Content */}

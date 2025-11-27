@@ -8,11 +8,11 @@ import { mockProjects } from '@/lib/data';
 
 const HeroSection = () => {
     return (
-        <div className="min-h-screen flex items-center justify-center bg-gradient-to-br from-blue-50 via-white to-yellow-50 pt-16 px-4">
+        <div className="min-h-screen flex items-center justify-center bg-gray-50 pt-16 px-4">
             <div className="max-w-4xl mx-auto text-center space-y-8 animate-in fade-in duration-700">
                 <div className="space-y-4">
                     <h1 className="text-5xl md:text-7xl font-bold text-gray-900 leading-tight">
-                        ITS <span className="bg-gradient-to-r from-blue-600 to-yellow-500 bg-clip-text text-transparent">Showcase</span>
+                        ITS <span className="text-blue-600">Showcase</span>
                     </h1>
                     <p className="text-xl md:text-2xl text-gray-600">
                         Explore final projects and research innovations from Institut Teknologi Sepuluh Nopember.

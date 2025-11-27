@@ -52,7 +52,7 @@ export default function Home() {
 
       {/* CTA Section */}
       <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
-        <div className="bg-gradient-to-r from-blue-600 to-blue-800 rounded-2xl p-8 md:p-16 text-center text-white space-y-6">
+        <div className="bg-blue-600 rounded-2xl p-8 md:p-16 text-center text-white space-y-6">
           <h2 className="text-4xl font-bold">Have a project to share?</h2>
           <p className="text-xl text-blue-100">Submit your research or final project to our showcase</p>
           <button
